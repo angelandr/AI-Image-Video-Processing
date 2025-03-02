@@ -1,16 +1,21 @@
 # AI-Image-Video-Processing
 Repo skirtas "Vaizdų analizės" namų darbams. Detali info apie kiekvieno sprendimą yra patalpinta atitinkamuose aplankuose README failuose.
 
- 
+![Снимок экрана 2025-03-01 224545](https://github.com/user-attachments/assets/70b85fd2-c4fe-4c88-9c3b-e5479d8ec2b0)
+![Снимок экрана 2025-02-26 113558](https://github.com/user-attachments/assets/da5319f6-2882-4c0a-9a99-81d84b587c46)
+![Снимок экрана 2025-02-26 121705](https://github.com/user-attachments/assets/6a5618fb-022d-4560-b366-0630ce1cec84)
+
+![Снимок экрана 2025-03-02 152043](https://github.com/user-attachments/assets/0c974684-7c0f-4553-865e-a231d566e884)
+![Снимок экрана 2025-03-02 193339](https://github.com/user-attachments/assets/77ea236b-ac6c-414d-ab5d-c519422dacce)
 
 ND1. Užduotis
 
 Sukurti Python pagrindu veikiančią programą, kuri:
 
-    Nuskaitytų pateiktą medicininį vaizdą ir atliktų įvairias duomenų augmentacijos operacijas (pvz., sukimą, mastelio keitimą, triukšmo pridėjimą, kontrasto modifikavimą, sintetinį duomenų generavimą).
-    Naudodama iš anksto apmokytą konvoliucinį neuroninį tinklą, atliktų medicininio vaizdo analizę ir objektų ar anomalijų aptikimą tiek originaliame, tiek sugeneruotame duomenų rinkinyje.
-    Įvertintų, kaip duomenų augmentacija ir generavimas paveikia modelio tikslumą, palygindama rezultatų kokybę prieš ir po duomenų išplėtimo.
-    Sugeneruotų rezultatų ataskaitą su vizualine analize, tikslumo palyginimu tarp skirtingų augmentacijos metodų ir rekomendacijomis optimaliam duomenų generavimo integravimui.
+    1. Nuskaitytų pateiktą medicininį vaizdą ir atliktų įvairias duomenų augmentacijos operacijas (pvz., sukimą, mastelio keitimą, triukšmo pridėjimą, kontrasto modifikavimą, sintetinį duomenų generavimą).
+    2. Naudodama iš anksto apmokytą konvoliucinį neuroninį tinklą, atliktų medicininio vaizdo analizę ir objektų ar anomalijų aptikimą tiek originaliame, tiek sugeneruotame duomenų rinkinyje.
+    3. Įvertintų, kaip duomenų augmentacija ir generavimas paveikia modelio tikslumą, palygindama rezultatų kokybę prieš ir po duomenų išplėtimo.
+    4. Sugeneruotų rezultatų ataskaitą su vizualine analize, tikslumo palyginimu tarp skirtingų augmentacijos metodų ir rekomendacijomis optimaliam duomenų generavimo integravimui.
 
  
 
@@ -18,10 +23,10 @@ ND2. Užduotis
 
 Sukurti Python pagrindu veikiančią programą, kuri:
 
-    Nuskaitytų pateiktą vaizdo įrašą.
-    Identifikuotų ir sektų žmonių rankas vaizdo įraše.
-    Sugeneruotų naują vaizdo įrašą su vizualiai pažymėtomis sekamų rankų vietomis kiekviename kadre.
-    Automatiškai aptiktų ir pažymėtų momentus, kai rankos susikerta tarpusavyje, bei vizualiai tai pažymėtų vaizdo įraše.
+    1. Nuskaitytų pateiktą vaizdo įrašą.
+    2. Identifikuotų ir sektų žmonių rankas vaizdo įraše.
+    3. Sugeneruotų naują vaizdo įrašą su vizualiai pažymėtomis sekamų rankų vietomis kiekviename kadre.
+    4. Automatiškai aptiktų ir pažymėtų momentus, kai rankos susikerta tarpusavyje, bei vizualiai tai pažymėtų vaizdo įraše.
 
  
 
@@ -85,8 +90,13 @@ Vertinimo kriterijai:
     1 balas – Veidai pažymėti, bet vizualizacija galėtų būti aiškesnė arba trūksta estetinio pateikimo.
     0 balų – Vizualizacija neaiški arba jos nėra.
 
+
 4. Ataskaita (README) ir dokumentacija (2 balai):
 
     2 balai – Aiškus, struktūruotas README su detaliomis instrukcijomis ir problemų aprašymu.
     1 balas – README pateiktas, bet informacija neišsami arba trūksta svarbių detalių.
     0 balų – README nėra arba jis nesuteikia reikalingos informacijos.
+
+DATA FROM:
+https://www.kaggle.com/datasets/pkdarabi/brain-tumor-image-dataset-semantic-segmentation/data
+https://www.kaggle.com/datasets/ultralytics/brain-tumor  (FOR FIRST TRIAL)
